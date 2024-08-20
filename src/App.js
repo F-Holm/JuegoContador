@@ -22,6 +22,7 @@ function App() {
     setCountdown(3);
     let countdownValue = 2;
     setCountdown(countdownValue);
+    countdownValue -= 1;
 
     const countdownInterval = setInterval(() => {
       setCountdown(countdownValue);
@@ -36,7 +37,7 @@ function App() {
 
   const startClicking = () => {
     setTimeRemaining(5);
-    let timeLeft = 5;
+    let timeLeft = 4;
 
     const timerInterval = setInterval(() => {
       setTimeRemaining(timeLeft);
