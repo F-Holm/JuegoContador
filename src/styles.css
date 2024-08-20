@@ -1,0 +1,59 @@
+.app {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .countdown {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #444;
+  }
+  
+  .game-buttons {
+    margin: 20px 0;
+  }
+  
+  .start-button,
+  .click-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .click-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .start-button:disabled,
+  .click-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .info {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  .score {
+    font-size: 18px;
+    color: #555;
+  }
+  
