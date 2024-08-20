@@ -10,11 +10,8 @@ function App() {
   const [timeRemaining, setTimeRemaining] = useState(0);
   const [clicks, setClicks] = useState(0);
   const [maxScore, setMaxScore] = useState(0);
-
-  // Use useRef to keep track of the latest clicks value
   const clicksRef = useRef(clicks);
 
-  // Update the clicksRef value whenever clicks change
   useEffect(() => {
     clicksRef.current = clicks;
   }, [clicks]);
